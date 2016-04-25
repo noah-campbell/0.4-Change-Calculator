@@ -1,0 +1,51 @@
+h1 {
+    font-family: sans-serif; 
+    font-weight: thin;
+    font-size: 40px;
+}
+
+p {
+    font-family: sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+input {
+    border-radius:4px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: #ccc;
+    width: 400px;
+    height: 25px;
+    font-size: 15px;
+    margin-bottom: 11px;
+    margin-top: 10px;
+    padding-right: 20px;
+
+}
+
+div {
+    display: block; 
+    background-color: #efefef;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #efefef;
+    text-align: center;
+}
+
+#bottom {
+    font-size: 30px;
+}
+
+#dollarTitle, #changeTitle {
+    font-size: 40px;
+    margin: 10px 30px 10px 30px;
+}
+
+.zero {
+    font-size: 18px;
+    margin: 10px 95px 10px 95px;
+}

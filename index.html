@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+
+                <h1>Change Calculator</h1>
+            
+        </head>
+    <body>
+
+        <div id="top">
+            <p>How much is due for the sale?<br>
+            <input type="number" Id="cost" onkeyup="log()"/>
+                <br></p>
+            <p>How much has the customer given you?<br>
+            <input type="number" Id="payment" onkeyup="log()"/>
+                <br></p>
+        </div>
+        <br>
+
+        <div id="middle" >
+            <p id="dollarTitle">Dollars</p>
+                <br>
+            <p class="zero" id="dollar">0</p>
+        </div>
+        <br>
+
+        <div id="top">
+            <p id="changeTitle">Quarters</p>
+            <p id="changeTitle">Dimes</p>
+            <p id="changeTitle">Nickles</p>
+            <p id="changeTitle">Pennies</p>
+                <br>
+            <p class="zero" id="quarter">0</p>
+            <p class="zero" id="dime">0</p>
+            <p class="zero" id="nickle">0</p>
+            <p class="zero" id="penny">0</p>
+        </div>
+
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>               
+    <script src="js/app.js" type="text/javascript" charset="utf-8"></script>
+            
+    </body>
+</html>
